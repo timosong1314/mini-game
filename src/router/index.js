@@ -2,6 +2,7 @@ import HomeView from '../views/HomeView.vue'
 import Game2048View from '../views/Game2048View.vue'
 import GomokuView from '../views/GomokuView.vue'
 import WerewolfView from '../views/WerewolfView.vue'
+import MBTIView from '../views/MBTIView.vue'
 
 const routes = [
   {
@@ -23,6 +24,11 @@ const routes = [
     path: '/games/werewolf',
     name: 'game-werewolf',
     component: WerewolfView,
+  },
+  {
+    path: '/games/mbti',
+    name: 'game-mbti',
+    component: MBTIView,
   },
 ]
 
