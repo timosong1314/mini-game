@@ -5,7 +5,7 @@ import App from './App.vue'
 import routes from './router'
 
 const router = createRouter({
-  history: createWebHistory('/mini-game/'),
+  history: createWebHistory(),
   routes,
 })
 
