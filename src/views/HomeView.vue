@@ -18,6 +18,16 @@
         <span class="card-go">→</span>
       </router-link>
 
+      <router-link class="card" to="/games/airplane-battle">
+        <div class="card-icon" style="background: linear-gradient(135deg, #3b82f6, #6366f1);">✈️</div>
+        <div class="card-body">
+          <h2>飞机大战</h2>
+          <div class="card-tags"><span class="tag tag--blue">单人</span><span class="tag tag--red">射击</span></div>
+          <p class="card-desc">消灭敌机，制霸天空，挑战无尽波次。</p>
+        </div>
+        <span class="card-go">→</span>
+      </router-link>
+
       <router-link class="card" to="/games/gomoku">
         <div class="card-icon" style="background: linear-gradient(135deg, #eab308, #ca8a04);">⚫</div>
         <div class="card-body">
