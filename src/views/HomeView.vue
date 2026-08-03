@@ -20,6 +20,16 @@
             </div>
             <span class="card-go">→</span>
           </router-link>
+
+          <router-link class="card" to="/games/mbti">
+            <div class="card-icon" style="background: linear-gradient(135deg, #ec4899, #8b5cf6);">🧠</div>
+            <div class="card-body">
+              <h3>MBTI 测试</h3>
+              <p class="card-desc">探索性格类型，发现真实的自己。</p>
+              <div class="card-tags"><span class="tag tag--pink">测试</span><span class="tag tag--violet">性格</span></div>
+            </div>
+            <span class="card-go">→</span>
+          </router-link>
         </div>
       </section>
 
@@ -52,26 +62,6 @@
               <h3>五子棋</h3>
               <p class="card-desc">双人对弈，先连成五子者胜。</p>
               <div class="card-tags"><span class="tag tag--green">双人</span><span class="tag tag--purple">策略</span></div>
-            </div>
-            <span class="card-go">→</span>
-          </router-link>
-
-          <router-link class="card" to="/games/mbti">
-            <div class="card-icon" style="background: linear-gradient(135deg, #ec4899, #8b5cf6);">🧠</div>
-            <div class="card-body">
-              <h3>MBTI 测试</h3>
-              <p class="card-desc">探索性格类型，发现真实的自己。</p>
-              <div class="card-tags"><span class="tag tag--pink">测试</span><span class="tag tag--violet">性格</span></div>
-            </div>
-            <span class="card-go">→</span>
-          </router-link>
-
-          <router-link class="card" to="/games/werewolf">
-            <div class="card-icon" style="background: linear-gradient(135deg, #7c3aed, #6d28d9);">🐺</div>
-            <div class="card-body">
-              <h3>狼人杀</h3>
-              <p class="card-desc">多人推理，找出隐藏的狼人。</p>
-              <div class="card-tags"><span class="tag tag--red">多人</span><span class="tag tag--indigo">推理</span></div>
             </div>
             <span class="card-go">→</span>
           </router-link>
