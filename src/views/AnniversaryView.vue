@@ -542,6 +542,9 @@ watch(events, saveEvents, { deep: true })
   position: relative;
   width: 100%;
   max-width: 360px;
+  max-height: 90vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 22px 20px 20px;
   border-radius: 22px;
   background: rgba(255,255,255,.98);
@@ -607,6 +610,11 @@ watch(events, saveEvents, { deep: true })
   cursor: pointer;
   font-family: inherit;
   letter-spacing: .02em;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
 }
 .date-input::-webkit-calendar-picker-indicator {
   cursor: pointer;
@@ -696,7 +704,7 @@ watch(events, saveEvents, { deep: true })
   .card-date { font-size: .8rem; }
   .card-number { font-size: 1.6rem; }
   .card-number-badge { padding: 7px 13px; min-width: 64px; }
-  .modal { max-width: 400px; padding: 26px 24px 22px; }
+  .modal { max-width: 400px; max-height: 90vh; padding: 26px 24px 22px; }
   .form-title { font-size: 1.15rem; }
   .field-group input { padding: 13px 14px; font-size: .92rem; }
   .radio-group { gap: 12px; }
