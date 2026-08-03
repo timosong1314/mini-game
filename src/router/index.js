@@ -4,6 +4,7 @@ import AirplaneBattleView from '../views/AirplaneBattleView.vue'
 import GomokuView from '../views/GomokuView.vue'
 import WerewolfView from '../views/WerewolfView.vue'
 import MBTIView from '../views/MBTIView.vue'
+import AnniversaryView from '../views/AnniversaryView.vue'
 
 const routes = [
   {
@@ -35,6 +36,11 @@ const routes = [
     path: '/games/mbti',
     name: 'game-mbti',
     component: MBTIView,
+  },
+  {
+    path: '/anniversary',
+    name: 'anniversary',
+    component: AnniversaryView,
   },
 ]
 
